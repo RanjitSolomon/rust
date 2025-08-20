@@ -51,5 +51,19 @@ fn celsius_to_fahrenheit() {  // function
 let temp: f64 = match temp.trim().parse() { // convert to float       
 println!("{:.2}°F is {:.2}°C", temp, celsius);  // format output       
        
+### Day 3 - Simple Calculator
+Tokenize the input      
+// tokenize the input. input (5 + 3) contains 3 items: "5" and "+" and "3"     
+let tokens: Vec<&str> = input.trim().split_whitespace().collect();      
+let num1: f64 = match tokens[0].parse() {Ok(n) => n,Err(_) => {println!("❌ Invalid first number.");
+return;}};     
+let operator = tokens[1];     
+    let result = match operator {"+" => add(num1, num2),"-" => subtract(num1, num2),"*" => multiply(num1, num2),
+        "/" => divide(num1, num2), _ => {
+            println!("❌ Invalid operator. Use +, -, *, or /.");
+            return;
+        }
+    };       
+
 
 
