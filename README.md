@@ -65,5 +65,14 @@ let operator = tokens[1];
         }
     };       
 
+### Day 4 - Gussing Game
+Random number generation, user input, and control flow        
+Under [dependenies], add the following line to "cargo.toml" and then "cargo build"      
+rand = "0.8" //  Current version is 0.8.4 as at Aug 2025      
+use rand::Rng; // Generate Random number      
+use std::cmp::Ordering // compare numbers if greater or lesser     
+let secret_number = rand::thread_rng().gen_range(1..=100);      
+loop{ continue, break}      
+
 
 
