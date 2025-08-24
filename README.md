@@ -74,5 +74,16 @@ use std::cmp::Ordering // compare numbers if greater or lesser
 let secret_number = rand::thread_rng().gen_range(1..=100);      
 loop{ continue, break}      
 
-
-
+### Day 5 - Word Count
+Count the number of words in a text file     
+File input/output standard library, String manipulation      
+Command Line Arguments             
+      
+### Day 6 - BMI Calculator
+Body Mass Index       
+Function: Return optional value - fn get_input_as_f64() -> Option<f64> {        
+Function: Takes two args and retun         
+fn calculate_bmi(weight: f64, height: f64) -> f64 {        
+Function: return static string      
+fn classify_bmi(bmi: f64) -> &'static str {       
+        
