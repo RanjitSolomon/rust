@@ -87,3 +87,14 @@ fn calculate_bmi(weight: f64, height: f64) -> f64 {
 Function: return static string      
 fn classify_bmi(bmi: f64) -> &'static str {       
         
+### Day 7 - Palindrome Checker
+Sequence of letters or numbers that can be read forward or backwards.      
+racecar      
+A man, a plan, a canal, Panama      
+input        
+        .chars() // Iterate over each character        
+        .filter(|c| c.is_alphanumeric()) // Keep only letters and numbers        
+        .map(|c| c.to_lowercase().to_string()) // Convert to lowercase        
+        .collect::<String>() // Collect into a new String         
+         
+
