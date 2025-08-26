@@ -97,4 +97,12 @@ input
         .map(|c| c.to_lowercase().to_string()) // Convert to lowercase        
         .collect::<String>() // Collect into a new String         
          
+### Day 8 - Fibonacci Sequence Generator
+Fibonacci sequence up to a user-defined number of terms      
+Each number is sum of previous two numbers       
+F(n) = F(n-1) + F(n-2)         
+First 10 numbers: 0,1,1,2,3,5,8,13,21,34
+Validating user input      
+For Loop: for i in 2..n {          
+           
 
