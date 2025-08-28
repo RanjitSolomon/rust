@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "description": "Buy Milk",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "description": "Do Homework",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "description": "Wash cloths",
+    "completed": false
+  }
+]

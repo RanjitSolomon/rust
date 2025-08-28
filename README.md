@@ -107,4 +107,15 @@ For Loop: for i in 2..n {
            
 ### Day 9 - Prime Number checker.
 Check if a given number is prime.      
+Prime number is a natural number greater than 1 and divisible by 1 and itself.     
+2,3,5,7,11          
+
+### Day 10 - To-Do List App 
+Add, View, Mark as complete, delte tasks     
+Add dependencies to cargo.toml        
+serde = { version="1.0", features=["derive"]}       
+serde_json = "1.0"       
+serialization, deserialization    
+cargo build        
+
 
