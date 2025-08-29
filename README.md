@@ -118,4 +118,10 @@ serde_json = "1.0"
 serialization, deserialization    
 cargo build        
 
+### Day 11 - Basic Timer Tool 
+Set a timer for a specified duration and notify       
+- Enter a duration (in hours, minutes, or seconds)      
+- Start the timer and display a countdown      
+- Notify when the time is up   
+      
 
