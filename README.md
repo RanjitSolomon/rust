@@ -122,6 +122,12 @@ cargo build
 Set a timer for a specified duration and notify       
 - Enter a duration (in hours, minutes, or seconds)      
 - Start the timer and display a countdown      
-- Notify when the time is up   
-      
+- Notify when the time is up       
+         
+### Day 12 - Rock-Paper-Scissors Game
+cargo.toml [dependencies] rand="0.8"      
+- Display a welcome message and instructions       
+- User chooses Rock, Paper, or Scissors        
+- The computer randomly selects a choice      
+- Compare choices to determine the winner      
 
