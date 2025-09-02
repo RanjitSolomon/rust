@@ -131,3 +131,11 @@ cargo.toml [dependencies] rand="0.8"
 - The computer randomly selects a choice      
 - Compare choices to determine the winner      
 
+### Day 13 - JSON Parser
+cargo.toml:         
+serde = { version = "1.0", features = ["derive"] }       
+serde_json = "1.0"        
+Read and parse a JSON file      
+         
+
+
