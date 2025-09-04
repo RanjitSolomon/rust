@@ -137,5 +137,7 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"        
 Read and parse a JSON file      
          
+### Day 14 - File Reader CLI 
+tool in Rust that reads a file and prints its contents. Add optional features like showing line numbers and searching for keywords within the file.        
 
 

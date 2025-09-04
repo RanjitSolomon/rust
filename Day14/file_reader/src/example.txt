@@ -1,0 +1,5 @@
+This is an example file. 
+It contains some example text. 
+We will search for keywords like example and function. 
+This is a function example. 
+
